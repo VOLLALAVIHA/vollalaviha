@@ -1,0 +1,46 @@
+<head> 
+  <style>
+    body{
+      background-color:rgb(50, 204, 150)
+    }
+  </style>
+  <title>loginform</title>
+  <center><h2>Registration form<h2></h2></center>
+  </head>
+    <body> 
+      <form method="post">
+        <center>
+        <p><label for="fname">first name : </label></p>
+        <input id="fname" type="text"/>
+        <p><br><label for="email"> email :</label></p>
+            <input id="email" type="email"/>
+            <p><br> <label for="pswd">password :</label></p>
+            <input id="pswd" type="password"/>
+            <p><br><label for="mble">mobile number :</label></p>
+            <input id="mble" pattern="[0-9]{10}"/>
+            <p><br><label> Date </label></p>
+            <input type="date"/>
+            <p><br><label>date and time :</label></P>
+            <input type="datetime-local"/>
+            <p><br><label>range :</label></p>
+            <input type="range"/>
+            <p><br><label>color :</label></p>
+            <input type="radio" id="white" value="white_clr" name="fav_clr"/>
+            <label for="white">white</label>
+            <input type="radio" id="black" value="black_clr" name="fav_clr"/>
+            <label for="black">black</label>
+            <P><br><label>choose any course</label></P>
+            <input type="radio" id="optn1" name="course"/>
+            <label for="optn1">python</label>
+            <input type="radio" id="optn2" name="course"/>
+            <label for="optn2">java</label>
+            <p><br><label>file :</label></p>
+            <input type="file">
+            <p><br><label>gender :</label></p>
+            <input type="checkbox" name="gender" value="female"/>female</li>
+            <br><input type="checkbox" name="gender" value="male"/>male</li>
+            <br><input type="submit"/>
+        </label>
+      </form>
+    </body>
+</head>
